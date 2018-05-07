@@ -3,7 +3,6 @@ layout: post
 title:  JPL. Threads
 date:   2018-05-06 00:00:00 +0000
 categories: java concurrency
-comments: true
 ---
 > по мотивам [**«Java Programming Language»**][jpl_book]{:target="_blank"}
 
