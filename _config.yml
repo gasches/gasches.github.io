@@ -18,9 +18,10 @@ email: semyon.gaschenko@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Sam's Workbook.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://gasches.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb
 github_username: gasches
+disqus.shortname: gasches-github
 
 # Build settings
 lang: ru
