@@ -117,7 +117,7 @@ akka.stream.javadsl.Source.from(List.of(1, 2, 3, 4))
 
 [RunnableGraph][runnable-graph]{:target="_blank"} - представляет собой соединенные друг с другом `Source`, `Flow` (необязательно) и `Sink`.
 
-[Материализация][stream-materialization]{:target="_blank"} (materialization) заключается в выделение необходимых ресурсов для запуска stream'а, и выполняется с помощью так называемых _терминальных операций_, таких как `run()` и `runWith`.
+[Материализация][stream-materialization]{:target="_blank"} (materialization) заключается в выделение необходимых ресурсов для запуска stream'а, и выполняется с помощью так называемых _терминальных операций_, таких как `run()` и `runWith()`.
 
 Результатом материализации stream'а является [материализованное значение][materialized-values]{:target="_blank"} которое предоставляет возможность взаимодействия с ним.
 
@@ -137,14 +137,11 @@ akka.stream.javadsl.Source.from(List.of(1, 2, 3, 4))
 
 Все операторы Akka Streams, по умолчанию, _сливаются_ (_fusing_) вместе и выполняются последовательно. Т.е. каждый элемент должен пройти все этапы перед тем как в stream поступит новый элемент.
 
-Данное поведение настраивается параметром `akka.stream.materializer.auto-fusing=off`.
+Данное поведение настраивается параметром `akka.stream.materializer.auto-fusing`.
 
 Для [асинхронного][stream-parallelism]{:target="_blank"} выполнения любой стадии используется метод `async()`.
 
-Следует учитывать, что асинхронное выполнение стадии в stream приведет к накладным расходом в виде:
-
-* акторов (и mailbox'ов)
-* буферов
+Следует учитывать, что асинхронное выполнение стадии в stream приведет к накладным расходам в виде дополнительных акторов (и их mailbox'ов) и буферов.
 
 [course-link]: https://academy.lightbend.com/courses/course-v1:lightbend+LTJ-P+v1/course/
 [reactive-streams]: http://www.reactive-streams.org/
