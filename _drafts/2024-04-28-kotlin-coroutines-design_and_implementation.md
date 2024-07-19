@@ -9,7 +9,7 @@ categories: kotlin coroutines
 * TOC:
 {:toc}
 
-## Aннотация
+## Аннотация
 
 Асинхронное программирование в последние годы переживает ренессанс.
 Созданное в 1980-х оно применялось довольно долго, но с появлением многоядерных процессоров было вытеснено многопоточным программированием, которое (на очень долгое время) фактически стало стандартом для реализации параллельных вычислений.
@@ -808,7 +808,7 @@ def infinite_palindromes():
         num += 1
 ```
 
-[^8]: Это пример взят из статьи [«How to Use Generators and yield in Python»](https://realpython.com/introduction-to-python-generators/)
+[^8]: Это пример взят из статьи [«How to Use Generators and yield in Python»](https://realpython.com/introduction-to-python-generators/).
 
 Несмотря на то, что код этой функции выглядит как последовательный (и не содержит оператор возврата), на самом деле он порождает бесконечную последовательность чисел-палиндромов используя встроенное ключевое слово `yield`.
 
@@ -836,13 +836,13 @@ fun infinitePalindromes(): Sequence<Int> = sequence {
 Во-первых, после того как в 2019 году Kotlin стал основным языком разработки приложений для платформы Android, корутины также были приняты в качестве "рекомендуемого решения для асинхронного программирования"[^9].
 Как результат перехода на корутины разработчики отмечают повышение производительности.
 
-[^9]: <https://developer.android.com/kotlin/coroutines>
+[^9]: <https://developer.android.com/kotlin/coroutines>.
 
 Во-вторых, недавно компания Amazon поделилась своим опытом разработки профилей Prime Video на Kotlin[^10].
 Среди прочих преимуществ Kotlin они также отмечают, что для разработчиков распределённых систем корутины являются улучшением по сравнению с future-ами.
 Также они говорят, что structured concurrency "делает приложение более надежным и улучшает использование ресурсов".
 
-[^10]: <https://aws.amazon.com/blogs/opensource/adopting-kotlin-at-prime-video-for-higher-developer-satisfaction-and-less-code/>
+[^10]: <https://aws.amazon.com/blogs/opensource/adopting-kotlin-at-prime-video-for-higher-developer-satisfaction-and-less-code/>.
 
 Однако, они также отмечают, что ошибочная блокировка в корутине, которая запущена в `Dispatcher` по-умолчанию, может израсходовать все доступные потоки и привести к трудноуловимым багам.
 Справиться с такими проблемами помогают тщательное тестирование и хаос-инжиниринг (chaos engineering) \[[46](#ref46)\].
