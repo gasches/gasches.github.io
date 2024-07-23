@@ -4,7 +4,7 @@ title:  "Корутины в Kotlin: дизайн и реализация"
 date:   2024-07-21 00:00:00 +0000
 categories: kotlin coroutines
 ---
-> Roman Elizarov, Mikhail Belyaev, Marat Akhin, and Ilmir Usmanov. 2021. Kotlin Coroutines: Design and Implementation. In Proceedings of the 2021 ACM SIGPLAN International Symposium on New Ideas, New Paradigms, and Reflections on Programming and Software (Onward! ’21), October 20–22, 2021, Chicago, IL, USA. ACM, New York, NY, USA, 17 pages. <https://doi.org/10.1145/3486607.3486751>. Перевод
+> Roman Elizarov, Mikhail Belyaev, Marat Akhin, and Ilmir Usmanov. 2021. Kotlin Coroutines: Design and Implementation. In Proceedings of the 2021 ACM SIGPLAN International Symposium on New Ideas, New Paradigms, and Reflections on Programming and Software (Onward! ’21), October 20–22, 2021, Chicago, IL, USA. ACM, New York, NY, USA, 17 pages. <https://dl.acm.org/doi/10.1145/3486607.3486751>. Перевод
 
 * TOC:
 {:toc}
