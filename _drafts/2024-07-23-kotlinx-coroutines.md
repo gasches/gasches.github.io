@@ -19,3 +19,7 @@ categories: kotlin coroutines
 * [kotlin.coroutines.cancellation](https://kotlinlang.org/api/core/kotlin-stdlib/kotlin.coroutines.cancellation/){:target="_blank"}
 * [kotlin.coroutines.intrinsics](https://kotlinlang.org/api/core/kotlin-stdlib/kotlin.coroutines.intrinsics/){:target="_blank"}
   > Low-level building blocks for libraries that provide coroutine-based APIs.
+
+https://kotlinlang.org/spec/pdf/sections/asynchronous-programming-with-coroutines.pdf
+https://blog.kotlin-academy.com/kotlin-coroutines-animated-part-1-coroutine-hello-world-51797d8b9cd4
+https://blog.kotlin-academy.com/building-kotlin-coroutine-framework-from-scratch-part-2-reinventing-dispatchers-bff72b82e42d

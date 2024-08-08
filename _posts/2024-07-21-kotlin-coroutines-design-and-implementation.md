@@ -1170,9 +1170,11 @@ class <anonymous> private constructor(
 
 ## Ссылки от переводчика
 
+* <https://github.com/Kotlin/KEEP/blob/master/proposals/coroutines.md>
+* <https://habr.com/ru/articles/827866/>
+* <https://kt.academy/article/cc-under-the-hood>
 * <https://manuelvivo.dev/suspend-modifier>
 * <https://proandroiddev.com/design-of-kotlin-coroutines-879bd35e0f34>
-* <https://kt.academy/article/cc-under-the-hood>
-* <https://habr.com/ru/articles/827866/>
+* <https://doordash.engineering/2021/11/09/the-beginners-guide-to-kotlin-coroutine-internals/>
 
 [kcoroutines]: https://kotlinlang.org/docs/coroutines-overview.html
