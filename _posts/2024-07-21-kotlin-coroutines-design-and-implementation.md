@@ -726,7 +726,7 @@ suspend fun someLongComputation(
 ```kotlin
 suspend fun <T> CompletableFuture<T>.await(): T =
   suspendCoroutine<T> { cont: Continuation<T> ->
-    whenComplete { result , exception ->
+    whenComplete { result, exception ->
       if (exception == null) // успешное завершение
         cont.resume(result)
       else // завершено с ошибкой
